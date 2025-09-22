@@ -1,0 +1,15 @@
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none; /* remove underline */
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #45a049;
+}

@@ -1,0 +1,16 @@
+<html>
+  <head>
+    <title>
+      Division | Calculator
+    </title>
+  </head>
+  <body>
+    <h3>Division</h3>
+    <form action="{{ url_for("division.divnum") }}" method="post">
+      <input type="text"  id="num1" name="num1">
+      <input type="text" id="num2" name="num2">
+      <button type="submit"></button>
+    </form>
+    <p id="response"></p>
+  </body>
+</html>

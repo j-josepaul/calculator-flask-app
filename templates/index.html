@@ -1,0 +1,17 @@
+<html>
+  <head>
+    <title>Calulator App</title>
+    <link rel="stylesheet" href="{{ url_for('static',filename='styles.css') }}">
+  </head>
+  <body>
+    <h3>Welcome to calulator app</h3>
+    
+    <div>
+      <p>Select the operation to perform</p>
+      <a href="{{ url_for('addition.index') }}" class="btn">Addition</a>
+      <a href="{{ url_for('subtraction.index') }}" class="btn">Subtraction</a>
+      <a href="{{ url_for('multiply.index') }}" class="btn">Multiplication</a>
+      <a href="{{ url_for('division.index') }}" class="btn">Division</a>
+    </div>
+  </body>
+</html>
